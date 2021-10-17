@@ -45,17 +45,18 @@
             height: 50px;
             outline: none;
             border-style: none;
+            padding-bottom: 65px;
             font-size: 50px;
             background-color: yellow;
-            color: white;
-            box-shadow: 8px 8px 20px #00000027, -8px -8px, 20px #969393;
+            color: black;
+            box-shadow: 8px 8px 20px #00000027, -8px -8px, 20px #d1cdcd;
 
         }
 
         button:hover {
             background-color: rgb(233, 233, 143);
-            color: whitesmoke;
-            border-color: black;
+            color: rgb(51, 49, 49);
+            border-color: black solid;
         }
     </style>
 </head>
@@ -65,7 +66,7 @@
         <p>Counter</p>
         <div class="card">
             <button onclick="decrement()">-</button>
-            <h2 id="root"></h2>
+            <h2 id="root" style="color: rgb(255, 255, 60);"></h2>
             <button onclick="increment()">+</button>
         </div>
 
